@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: mirai-instance
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      config:
+        file-extension: yaml
+  profiles:
+    active: dev
+logging:
+  config: classpath:log4j2.xml
